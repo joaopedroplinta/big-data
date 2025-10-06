@@ -1,0 +1,31 @@
+# Arquivos Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ambiente virtual
+venv/
+.env/
+.envrc
+
+# Arquivos de configuração do VS Code
+.vscode/
+
+# Arquivos de saída e modelos
+matriz_confusao.png
+modelo_renda.joblib
+
+# Dados temporários
+*.csv
+*.tsv
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
