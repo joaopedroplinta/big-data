@@ -1,31 +1,130 @@
-# Arquivos Python
-*.pyc
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Ambiente virtual
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
 venv/
-.env/
-.envrc
+ENV/
+env.bak/
+venv.bak/
 
-# Arquivos de configuração do VS Code
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# VS Code
 .vscode/
 
-# Arquivos de saída e modelos
-matriz_confusao.png
-modelo_renda.joblib
+# MacOS
+.DS_Store
 
-# Dados temporários
-*.csv
-*.tsv
-
-# Jupyter Notebooks checkpoints
-.ipynb_checkpoints/
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # Logs
 *.log
 
-# Sistema operacional
-.DS_Store
-Thumbs.db
+# Temporary files
+*.tmp
+*.temp
+
+# Big data files
+*.parquet
+*.csv
+*.tsv
+*.json
+*.avro
+*.orc
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.hdf5
+*.h5
+*.db
+*.sqlite
+*.mdb
+*.accdb
+*.xls
+*.xlsx
+*.xlsm
+*.sas7bdat
+*.sav
+*.dta
+*.rda
+*.rds
+*.feather
+
+# Ignore data folders
+data/
+datasets/
+output/
+results/
